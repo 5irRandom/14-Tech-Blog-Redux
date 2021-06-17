@@ -1,6 +1,6 @@
 // import stuff
 import React, { useState } from "react";
-import API from "../utils/loginAPI";
+import API from "../utils/loginAPI.js";
 
 function SignIn() {
   const [username, setUsername] = useState();
